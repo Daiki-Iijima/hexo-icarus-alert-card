@@ -1,0 +1,213 @@
+.custom-alert-block {
+  position: relative;
+  margin: 2em 0;
+  padding: 25px 10px 7px;
+  border: solid 2px #FFC107;
+  background-color: #fff4db; /* カスタム背景色 */
+  color: #5b5b5b; /* カスタムテキスト色 */
+}
+
+.custom-alert-block.no-title {
+  padding: 18px 10px; /* タイトルがない場合のパディングを調整 */
+}
+
+.custom-alert-block.no-title p {
+  text-align: left;
+  padding: 0; /* パディングを削除 */
+}
+
+.custom-alert-title {
+  position: absolute;
+  display: inline-block;
+  top: -11px;
+  left: 10px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.custom-alert-block p {
+  margin: 0;
+}
+
+/* アラートタイプごとの.custom-alert-blockのスタイル */
+.custom-alert-block.alert-success {
+  border-color: #28a745;
+  background-color: #d4edda;
+}
+
+.custom-alert-block.alert-info {
+  border-color: #17a2b8;
+  background-color: #d1ecf1;
+}
+
+.custom-alert-block.alert-warning {
+  border-color: #ffc107;
+  background-color: #fff3cd;
+}
+
+.custom-alert-block.alert-danger {
+  border-color: #dc3545;
+  background-color: #f8d7da;
+}
+
+/* ナイトモード用のスタイル */
+body.night .custom-alert-block {
+  background-color: #302400; /* ダークな背景色 */
+  color: #CCCCCC; /* 明るめのテキスト色 */
+}
+
+/* ナイトモード時のアラートタイプごとの.custom-alert-blockのスタイル */
+body.night .custom-alert-block.alert-success {
+  background-color: #1e2a23;
+}
+
+body.night .custom-alert-block.alert-info {
+  background-color: #17212b;
+}
+
+body.night .custom-alert-block.alert-warning {
+  background-color: #332c1f;
+}
+
+body.night .custom-alert-block.alert-danger {
+  background-color: #2a1a1b;
+}
+* スタイルシートファイルに追加するCSS */
+.custom-info-block {
+  position: relative;
+  margin: 2em 0;
+  padding: 25px 10px 7px;
+  border: solid 2px #FFC107;
+  background-color: #fff4db; /* カスタム背景色 */
+  color: #5b5b5b; /* カスタムテキスト色 */
+}
+
+.custom-info-block.no-title {
+  padding: 18px 10px; /* タイトルがない場合のパディングを調整 */
+}
+
+.custom-info-block.no-title p.content-center {
+  text-align: left;
+  padding: 0; /* 中央揃えの段落のためのパディングを削除 */
+}
+
+.custom-info-title {
+  position: absolute;
+  display: inline-block;
+  top: -11px;
+  left: 10px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  background: #FFC107;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.custom-info-block p {
+  margin: 0;
+}
+
+.content-center {
+  text-align: left; /* テキストを左揃えに */
+  width: 100%; /* 親要素の幅いっぱいに */
+}
+
+/* アラートタイプごとの.custom-info-titleのスタイル */
+.custom-alert-block.alert-success .custom-alert-title {
+  background: #28a745; /* successの背景色 */
+  color: #ffffff; /* successのテキスト色 */
+}
+
+.custom-alert-block.alert-info .custom-alert-title {
+  background: #17a2b8; /* infoの背景色 */
+  color: #ffffff; /* infoのテキスト色 */
+}
+
+.custom-alert-block.alert-warning .custom-alert-title {
+  background: #ffc107; /* warningの背景色 */
+  color: #ffffff; /* warningのテキスト色 */
+}
+
+.custom-alert-block.alert-danger .custom-alert-title {
+  background: #dc3545; /* dangerの背景色 */
+  color: #ffffff; /* dangerのテキスト色 */
+}
+
+/* アラートタイプごとのスタイル */
+.alert-info {
+  border-color: #17a2b8; /* Bootstrapのinfoカラー */
+  background-color: #d1ecf1; /* やや薄い青 */
+}
+
+.alert-success {
+  border-color: #28a745; /* Bootstrapのsuccessカラー */
+  background-color: #d4edda;
+}
+
+.alert-warning {
+  border-color: #ffc107; /* Bootstrapのwarningカラー */
+  background-color: #fff3cd;
+}
+
+.alert-danger {
+  border-color: #dc3545; /* Bootstrapのdangerカラー */
+  background-color: #f8d7da;
+}
+
+/* ナイトモード用のスタイル */
+body.night .custom-info-block {
+  background-color: #302400; /* ダークな背景色 */
+  color: #CCCCCC; /* 明るめのテキスト色 */
+}
+
+body.night .custom-info-title {
+  background: #555555; /* ダークなタイトル背景色 */
+}
+
+body.night .custom-info-title {
+  background: #FFC107;
+  color: #262626;
+}
+
+/* ナイトモード時のアラートタイプごとのスタイル */
+body.night .alert-info {
+  border-color: #0c5460; /* 情報表示用の濃い青色 */
+  background-color: #17212b; /* ナイトモードに適したより暗い背景色 */
+}
+
+body.night .alert-success {
+  border-color: #218838;
+  background-color: #1e2a23;
+}
+
+body.night .alert-warning {
+  border-color: #856404;
+  background-color: #332c1f;
+}
+
+body.night .alert-danger {
+  border-color: #721c24;
+  background-color: #2a1a1b;
+}
+
+/* ナイトモード時のアラートタイプごとの.custom-info-titleのスタイル */
+body.night .custom-alert-block.alert-success .custom-alert-title {
+  background: #218838; /* ナイトモードでのsuccessの背景色 */
+}
+
+body.night .custom-alert-block.alert-info .custom-alert-title {
+  background: #0c5460; /* ナイトモードでのinfoの背景色 */
+}
+
+body.night .custom-alert-block.alert-warning .custom-alert-title {
+  background: #856404; /* ナイトモードでのwarningの背景色 */
+}
+
+body.night .custom-alert-block.alert-danger .custom-alert-title {
+  background: #721c24; /* ナイトモードでのdangerの背景色 */
+}

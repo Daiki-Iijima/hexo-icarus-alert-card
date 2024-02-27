@@ -1,0 +1,26 @@
+{
+  "name": "hexo-icarus-alert-card",
+  "version": "1.0.0",
+  "description": "Hexoのテーマicarusを使用中の環境でアラートカードを描画できるようにする",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "style.css"
+  ],
+  "keywords": [
+    "hexo",
+    "hexo-card",
+    "hexo-alert"
+  ],
+  "dependencies": {
+    "hexo" : "^6.0.0",
+    "hexo-util": "^2.1.0",
+    "micromatch": "^4.0.2",
+    "nunjucks": "^3.1.6"
+  },
+  "author": "djima",
+  "license": "ISC"
+}
